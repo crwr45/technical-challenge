@@ -1,0 +1,12 @@
+This needs a thorough round of refactoring:
+ - Check the poetry dependencies are all correct.
+ - no way to init a new list file (use an empty dict in a file)
+ - Used "item" and "entry" interchangably.
+ - Not very impressed with Click.
+ - Less duplicated setup code.
+ - Need to test the CLI.
+ - Naming is a bit Go-influenced, needs more underscores.
+ - Too many different 'giftlist's
+ - Allowed products isn't quite the right meaning. "Known" products might be better.
+ - Use only one JSON library.
+ 
