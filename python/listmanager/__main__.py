@@ -53,9 +53,6 @@ def add(ctx, product_file, product_id):
     products = products_from_file(product_file)
     giftlist = giftlist_from_file(giftlist_file, products)
 
-    print(product_id)
-    print(products)
-
     product = products.get(product_id)
     if product is None:
         raise ValueError(f"product {product_id} does not exist")
