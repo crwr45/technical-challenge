@@ -1,3 +1,13 @@
+Dependency management using Poetry, create a venv using 
+```shell
+poetry install
+```
+
+Get a shell in that venv using
+```shell
+poetry shell
+```
+
 Command-line usage:
 
 ```shell
